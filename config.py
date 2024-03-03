@@ -2,10 +2,10 @@ import re, os
 
 id_pattern = re.compile(r'^.\d+$') 
 
-API_ID = os.environ.get("API_ID", "")
-API_HASH = os.environ.get("API_HASH", "")
+API_ID = os.environ.get("18456806", "")
+API_HASH = os.environ.get("ffd294313d574aa52d04813ee7dedb53", "")
 #BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
-TOKEN_ONE = os.environ.get("TOKEN_ONE", "")
+TOKEN_ONE = os.environ.get("6750339147:AAFoCm6xqXIofFnmdg7cujyUyfMMuMuEmPo", "")
 
 CHANNEL = os.environ.get("CHANNEL", "ATL_Univers") # username without '@'
 BOT_USERNAME = os.environ.get("BOT_USERNAME","") # username without '@'
