@@ -1,3 +1,9 @@
 build:
   docker:
-      web: Dockerfile
+    web: Dockerfile
+
+run:
+  web:
+    command: python app.py
+    ports:
+      - 8080:8080
