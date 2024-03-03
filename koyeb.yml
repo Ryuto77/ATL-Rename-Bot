@@ -4,6 +4,6 @@
 
 run:
   web:
-    command: python bot.py
+    command: python start.py
     ports:
       - 8080:8080
