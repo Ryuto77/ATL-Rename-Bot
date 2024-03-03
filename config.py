@@ -14,8 +14,8 @@ UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL","ATL_Univers") # username wit
 OWNER_USERNAME = os.environ.get("OWNER_USERNAME","HMF_Owner_1")
 STRING = os.environ.get("STRING", "")
 
-DB_NAME = os.environ.get("DB_NAME","renameone")     
-DB_URL = os.environ.get("DB_URL","")
+DB_NAME = os.environ.get("DB_NAME","renext_bot")     
+DB_URL = os.environ.get("mongodb+srv://renext_bot:renext_bot@cluster0.y99so09.mongodb.net/","")
 
 FLOOD = int(os.environ.get("FLOOD", "90"))
 LAZY_PIC = os.environ.get("LAZY_PIC", "")
