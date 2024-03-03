@@ -15,7 +15,7 @@ OWNER_USERNAME = os.environ.get("OWNER_USERNAME","Ryuto77")
 STRING = os.environ.get("STRING", "")
 
 DB_NAME = os.environ.get("DB_NAME","renext_bot")     
-DB_URL = os.environ.get("DB_URL","mongodb+srv://renext_bot:renext_bot@cluster0.y99so09.mongodb.net/")
+DB_URL = os.environ.get("DB_URL","mongodb+srv://renext_bot:renext_bot@cluster7.v4tgq6h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster7")
 
 FLOOD = int(os.environ.get("FLOOD", "90"))
 LAZY_PIC = os.environ.get("LAZY_PIC", "")
