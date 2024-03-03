@@ -1,9 +1,9 @@
-    build:
+ build:
   docker:
     web: Dockerfile
 
 run:
   web:
-    command: python start.py
+    command: python3 bot.py
     ports:
       - 8080:8080
