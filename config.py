@@ -2,20 +2,20 @@ import re, os
 
 id_pattern = re.compile(r'^.\d+$') 
 
-API_ID = os.environ.get("18456806", "")
-API_HASH = os.environ.get("ffd294313d574aa52d04813ee7dedb53", "")
+API_ID = os.environ.get("API_ID", "18456806")
+API_HASH = os.environ.get("API_HASH", "ffd294313d574aa52d04813ee7dedb53")
 #BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
-TOKEN_ONE = os.environ.get("6750339147:AAFoCm6xqXIofFnmdg7cujyUyfMMuMuEmPo", "")
+TOKEN_ONE = os.environ.get("TOKEN_ONE", "6750339147:AAFoCm6xqXIofFnmdg7cujyUyfMMuMuEmPo")
 
-CHANNEL = os.environ.get("CHANNEL", "ATL_Univers") # username without '@'
+CHANNEL = os.environ.get("CHANNEL", "") # username without '@'
 BOT_USERNAME = os.environ.get("BOT_USERNAME","") # username without '@'
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP","BYNF_TamilChat") # username without '@'
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL","ATL_Univers") # username without '@'
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME","HMF_Owner_1")
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP","") # username without '@'
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL","") # username without '@'
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME","")
 STRING = os.environ.get("STRING", "")
 
 DB_NAME = os.environ.get("DB_NAME","renext_bot")     
-DB_URL = os.environ.get("mongodb+srv://renext_bot:renext_bot@cluster0.y99so09.mongodb.net/","")
+DB_URL = os.environ.get("DB_URL","mongodb+srv://renext_bot:renext_bot@cluster0.y99so09.mongodb.net/")
 
 FLOOD = int(os.environ.get("FLOOD", "90"))
 LAZY_PIC = os.environ.get("LAZY_PIC", "")
